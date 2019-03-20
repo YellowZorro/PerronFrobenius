@@ -1,0 +1,32 @@
+Tropical Matroid Notes
+
+Graphical Matroids
+G -> M(G)
+elements: edges
+bases: spanning trees
+circuits: simple cycles
+M(G)_w = max weight spanning trees
+rank: maximal intersection with a spanning tree
+rank(G): size of max spanning tree
+
+M_w takes a face of P_M maximized by vector w
+
+w weight vector on edges
+	edge -> |R
+
+Tropical Linear Spaces
+
+The Dressian of M is the set of functions w: B -> R
+	such that for any price vector, the subdivisions induced by w forms a matroid
+
+	The matroid base polytope is subdivided into matroid polytopes
+
+Trop Lin Space (M) = 
+	trop(M)
+	w in R^n st M_w has no loops (rank-1 circuits)
+
+trop(U_(d+1)(n+1)) is union of positive orthants spanned by d-subsets of coordinate vectors
+
+d = 0 is trivial, trop(M) = {c*(111):c in R}
+
+U_(23) - trop(M) = span(e0) U span(e1) U span(e2)
